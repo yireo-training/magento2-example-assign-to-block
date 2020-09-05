@@ -1,0 +1,12 @@
+<?php
+declare(strict_types=1);
+
+/** @var \Magento\Framework\View\Element\Template $block */
+/** @var \Yireo\ExampleAssignToBlock\ViewModel\Example $viewModel */
+?>
+<h3>Yireo ExampleAssignToBlock</h3>
+<ul>
+    <li>Block name: <?= $block->getNameInLayout() ?></li>
+    <li>Block class: <?= get_class($block) ?></li>
+    <li>ViewModel class: <?= get_class($viewModel) ?></li>
+</ul>
